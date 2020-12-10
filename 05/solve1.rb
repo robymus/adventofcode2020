@@ -1,0 +1,1 @@
+p ARGF.map{|line|line.tr('FBLR','0101').to_i(2)}.max
